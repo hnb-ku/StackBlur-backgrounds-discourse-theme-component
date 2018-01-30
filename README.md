@@ -1,7 +1,7 @@
 
 A theme component that generates high performace blurred backgrounds
 
-More information: https://meta.discourse.org/t/discourse-masonry-gallery-theme-component/79076
+More information: https://meta.discourse.org/t/
 
 
 # License (Mario Klingemann)
