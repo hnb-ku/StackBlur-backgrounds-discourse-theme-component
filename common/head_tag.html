@@ -13,10 +13,10 @@ $(document).ready(function() {
 	img.onload = start;
 	img.src = $("#background_b").data("src");
 	function start() {
-		blurImageToBackground(img, c);
+		StackBlurBackground(img, c);
 	}
 
-	function blurImageToBackground(img, element) {
+	function StackBlurBackground(img, element) {
 		ctx.drawImage(img, 0, 0);
 		StackBlur.image(img, c, blur);
 		element.style.background = "url(" + c.toDataURL() + ")";
