@@ -1,1 +1,23 @@
+<script type="text/discourse-plugin" version="0.8.16">
+$(document).ready(function() {
+	var blur = $("#background_b").data("blur");
+	img = new Image();
+	c = document.getElementById("background_b");
+	ctx = c.getContext("2d");
+	w = window.innerWidth;
+	h = window.innerHeight;
 
+	img.crossOrigin = "anonymous";
+	img.onload = start;
+	img.src = $("#background_b").data("src");
+	function start() {
+		blurImageToBackground(img, c);
+	}
+
+	function blurImageToBackground(img, element) {
+		ctx.drawImage(img, 0, 0);
+		StackBlur.image(img, c, blur);
+		element.style.background = "url(" + c.toDataURL() + ")";
+	}
+});
+</script>
