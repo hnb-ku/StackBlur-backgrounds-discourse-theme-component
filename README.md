@@ -1,5 +1,5 @@
 
-A theme component generates high performace blurred backgrounds
+A theme component that generates high performace blurred backgrounds
 
 More information: https://meta.discourse.org/t/discourse-masonry-gallery-theme-component/79076
 
