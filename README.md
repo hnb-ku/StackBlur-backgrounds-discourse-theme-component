@@ -1,7 +1,7 @@
 
 A theme component that generates high performace blurred backgrounds
 
-More information: https://meta.discourse.org/t/
+More information: https://meta.discourse.org/t/79344
 
 
 # License (Mario Klingemann)
